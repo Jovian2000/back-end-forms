@@ -6,7 +6,7 @@
     title="html form"
     style="display: inline-block; margin: 0 auto; max-width: 30px">
 
-## J2F1BELP2L2 - HTML formulier verwerken - GET
+## J2F1BELP2L2 - HTML formulier verwerken 
 <img
     src="/screenshots/screenshot-html-form-get.png"
     alt="screenshot van form met get"
