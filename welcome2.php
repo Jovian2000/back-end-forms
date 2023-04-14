@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +11,7 @@
 </head>
 <body>
     <h1>De ingevulde gegevens zijn:</h1>
-    <p>Naam: <?php echo $_POST["name"];?></p>
-    <p>E-mail: <?php echo $_POST["email"];?></p>
+      <p>Naam: <?php echo htmlspecialchars($_POST["name"]);?></p>
+      <p>E-mail: <?php echo htmlspecialchars($_POST["email"]);?></p>
 </body>
 </html>

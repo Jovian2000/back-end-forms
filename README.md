@@ -18,3 +18,10 @@
     alt="screenshot van ingevulde form"
     title="html form php"
     style="display: inline-block; margin: 0 auto; max-width: 30px">
+
+## J2F1BELP2L3 - HTML formulier met validatie
+<img
+    src="/screenshots/screenshot-screenshot-validatie-onderdeel-1.png"
+    alt="screenshot van ingevulde form"
+    title="html form php"
+    style="display: inline-block; margin: 0 auto; max-width: 30px">
