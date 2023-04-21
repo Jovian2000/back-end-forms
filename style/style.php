@@ -1,3 +1,7 @@
+<?php header('content-type: text/css;');
+    $name = file_get_contents() 
+?>
+
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -25,4 +29,8 @@ label {
 
 input {
     margin: 10px;
+}
+
+span {
+    color:red;
 }
