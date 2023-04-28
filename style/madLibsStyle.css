@@ -1,0 +1,49 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkred;
+}
+
+/* li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: red;
+} */
+
+nav {
+    background-color: darkred;
+    padding: 10px;
+    padding-left: 0;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: rgb(79, 0, 0);
+}
