@@ -143,7 +143,7 @@
         </p>
     </main>
     <footer>
-
+        ©Jovian 2023
     </footer>
     <?php switchSlide()?>
 </body>
