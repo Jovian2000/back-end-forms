@@ -4,8 +4,6 @@
     $completeForm = FALSE;
     $nameBool = FALSE;
     $emailBool = FALSE;
-    $displayFormOn = "<style> .form-block{display: flex;} .form-done-block{display: none;} </style>";
-    $displayFormOff = "<style> .form-block{display: none;} .form-done-block{display: flex;} </style>";
 
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if (empty($_POST["name"])) {
