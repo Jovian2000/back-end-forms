@@ -40,13 +40,13 @@
     style="display: inline-block; margin: 0 auto; max-width: 30px">
  
 <img
-    src="/screenshots/screenschot-mad-libs-onkunde-test-required-field.png"
+    src="/screenshots/screenshot-mad-libs-onkunde-test-required-field.png"
     alt="screenshot mad libs"
     title="mad libs"
     style="display: inline-block; margin: 0 auto; max-width: 30px">
  
 <img
-    src="/screenshots/screenschot-mad-libs-onkunde-resultaat-required-field.png"
+    src="/screenshots/screenshot-mad-libs-onkunde-resultaat-required-field.png"
     alt="screenshot mad libs"
     title="mad libs"
     style="display: inline-block; margin: 0 auto; max-width: 30px">
