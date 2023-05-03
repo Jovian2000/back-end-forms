@@ -97,7 +97,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mad Libs</title>
-    <link rel="stylesheet" href="style/madLibsStyle.css">
+    <link rel="stylesheet" href="style/mad-libs-style.css">
     <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
 </head>
 <body>
@@ -106,8 +106,8 @@
     </header>
     <main>
         <nav>
-            <a href="madLibsPaniek.php">Er heerst paniek...</a></li>
-            <a href="madLibsOnkunde.php">Onkunde</a></li>
+            <a href="mad-libs-paniek.php">Er heerst paniek...</a></li>
+            <a href="mad-libs-onkunde.php">Onkunde</a></li>
         </nav>
         <h2>Er heerst paniek...</h2>
         <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" class="form-block">
@@ -129,21 +129,23 @@
             <input type="text" name="question8"><span><?php echo $invalid8;?></span><br><br>
             <button type="submit">verzenden</button>
         </form>
-        <p>
-            Er heerst paniek in het koninkrijk <?php echo htmlspecialchars($_POST["question3"]);?>. 
-            Koning <?php echo htmlspecialchars($_POST["question6"]);?> is ten einde raad en als koning <?php echo htmlspecialchars($_POST["question6"]);?> ten einde raad is, dan roept hij zijn ten-einde-raadsheer <?php echo htmlspecialchars($_POST["question2"]);?><br><br>
-            "<?php echo htmlspecialchars($_POST["question2"]);?>! Het is een ramp! Het is een schande!"<br><br>
-            "Sire, Majesteit, Uwe Luidruchtigheid, wat is er aan de hand?"<br><br>
-            "Mijn <?php echo htmlspecialchars($_POST["question1"]);?> is verdwenen! Zo maar zonder waarschuwing. En ik had net <?php echo htmlspecialchars($_POST["question5"]);?> voor hem gekocht!"<br><br>
-            "Majesteit, uw <?php echo htmlspecialchars($_POST["question1"]);?> komt vast vanzelf weer terug?"<br><br>
-            "Ja, da's leuk en aardig, maar hoe moet ik in de tussentijd <?php echo htmlspecialchars($_POST["question8"]);?> leren?"<br><br>
-            "Maar Sire, daar kunt u toch uw <?php echo htmlspecialchars($_POST["question7"]);?> voor gebruiken."<br><br>
-            "<?php echo htmlspecialchars($_POST["question2"]);?>, je hebt helemaal gelijk! Wat zou ik doen als ik jou niet had."<br><br>
-            "<?php echo htmlspecialchars($_POST["question4"]);?>, Sire."<br><br>
-        </p>
+        <div class="text-block">
+            <p>
+                Er heerst paniek in het koninkrijk <?php echo htmlspecialchars($_POST["question3"]);?>. 
+                Koning <?php echo htmlspecialchars($_POST["question6"]);?> is ten einde raad en als koning <?php echo htmlspecialchars($_POST["question6"]);?> ten einde raad is, dan roept hij zijn ten-einde-raadsheer <?php echo htmlspecialchars($_POST["question2"]);?><br><br>
+                "<?php echo htmlspecialchars($_POST["question2"]);?>! Het is een ramp! Het is een schande!"<br><br>
+                "Sire, Majesteit, Uwe Luidruchtigheid, wat is er aan de hand?"<br><br>
+                "Mijn <?php echo htmlspecialchars($_POST["question1"]);?> is verdwenen! Zo maar zonder waarschuwing. En ik had net <?php echo htmlspecialchars($_POST["question5"]);?> voor hem gekocht!"<br><br>
+                "Majesteit, uw <?php echo htmlspecialchars($_POST["question1"]);?> komt vast vanzelf weer terug?"<br><br>
+                "Ja, da's leuk en aardig, maar hoe moet ik in de tussentijd <?php echo htmlspecialchars($_POST["question8"]);?> leren?"<br><br>
+                "Maar Sire, daar kunt u toch uw <?php echo htmlspecialchars($_POST["question7"]);?> voor gebruiken."<br><br>
+                "<?php echo htmlspecialchars($_POST["question2"]);?>, je hebt helemaal gelijk! Wat zou ik doen als ik jou niet had."<br><br>
+                "<?php echo htmlspecialchars($_POST["question4"]);?>, Sire."<br><br>
+            </p>
+        </div>
     </main>
     <footer>
-
+        ©Jovian 2023
     </footer>
     <?php switchSlide()?>
 </body>

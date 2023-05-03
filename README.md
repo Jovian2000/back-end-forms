@@ -25,3 +25,29 @@
     alt="screenshot van ingevulde form"
     title="html form php"
     style="display: inline-block; margin: 0 auto; max-width: 30px">
+
+## J2F1BELP2O1 - eindopdracht - Mad libs
+<img
+    src="/screenshots/screenshot-mad-libs-onkunde-form.png"
+    alt="screenshot mad libs"
+    title="mad libs"
+    style="display: inline-block; margin: 0 auto; max-width: 30px">
+ 
+<img
+    src="/screenshots/screenshot-mad-libs-onkunde-resultaat.png"
+    alt="screenshot mad libs"
+    title="mad libs"
+    style="display: inline-block; margin: 0 auto; max-width: 30px">
+ 
+<img
+    src="/screenshots/screenschot-mad-libs-onkunde-test-required-field.png"
+    alt="screenshot mad libs"
+    title="mad libs"
+    style="display: inline-block; margin: 0 auto; max-width: 30px">
+ 
+<img
+    src="/screenshots/screenschot-mad-libs-onkunde-resultaat-required-field.png"
+    alt="screenshot mad libs"
+    title="mad libs"
+    style="display: inline-block; margin: 0 auto; max-width: 30px">
+ 
